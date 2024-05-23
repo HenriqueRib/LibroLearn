@@ -133,6 +133,13 @@ return [
             'level' => 'debug',
             'days' => 120,
         ],
+
+        'controller' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/controller/log.log'),
+            'level' => 'debug',
+            'days' => 120,
+        ],
     ],
 
 ];
